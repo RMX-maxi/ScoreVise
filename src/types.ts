@@ -84,7 +84,7 @@ export interface Match {
 
 export type FilterStatus = 'ALL' | 'LIVE' | 'FINISHED' | 'SCHEDULED';
 
-export type SportType = 'FOOTBALL' | 'BASKETBALL' | 'NBA' | 'BASEBALL' | 'F1' | 'HOCKEY' | 'MMA' | 'RUGBY' | 'VOLLEYBALL' | 'NFL' | 'HANDBALL';
+export type SportType = 'FOOTBALL';
 
 export interface SportConfig {
   id: SportType;
